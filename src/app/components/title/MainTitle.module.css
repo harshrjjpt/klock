@@ -1,0 +1,48 @@
+.mainTitle {
+  color: white;
+  font-family: Helvetica;
+  font-size: 150px;
+  letter-spacing: -4px;
+  position: relative;
+  color: transparent;
+  background-image: linear-gradient(to right, white, white, transparent);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position-x: 200%;
+  animation: 2s fillup ease-in-out 2s forwards;
+}
+.scrolledMainTitle {
+  font-size: 140px;
+  transition: 0.5s all ease-in-out;
+}
+
+.mainTitle::after {
+  content: "Klocks";
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: 2s fadein ease-in-out forwards;
+}
+
+@keyframes fillup {
+  from {
+    background-position-x: 200%;
+  }
+  to {
+    background-position-x: 0%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

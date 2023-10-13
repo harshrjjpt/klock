@@ -1,0 +1,41 @@
+.aboutSection {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.heroHeading {
+  color: rgb(1, 1, 1);
+  position: relative;
+  z-index: 1;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-family: "Monument Grotesk", sans-serif;
+  color: #fcfaf3;
+  font-size: 4.75em;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+}
+.split {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  display: inline-block;
+  font-family: "Monument Grotesk", sans-serif;
+  color: #fff;
+  /* color: #fcfaf3; */
+  font-size: 92px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-text-stroke: 6px;
+  letter-spacing: 7px;
+}
+.scrollBackground {
+  background-color: white;
+  transition: 0.4s all ease-in-out;
+}
+.scrollText {
+  color: black;
+  transition: 0.4s all ease-in-out;
+}

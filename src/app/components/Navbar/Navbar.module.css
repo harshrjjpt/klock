@@ -1,0 +1,18 @@
+.navbarContainer {
+  z-index: 100;
+  padding: 15px 40px;
+  background-color: none;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+}
+.infoCapsules {
+  width: 30%;
+}
+.capsulesList {
+  list-style: none;
+  display: flex;
+  column-gap: 8px;
+}
