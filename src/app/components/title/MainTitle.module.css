@@ -12,9 +12,25 @@
   background-position-x: 200%;
   animation: 2s fillup ease-in-out 2s forwards;
 }
+@media screen and (max-width: 600px) {
+  .mainTitle {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+}
+
 .scrolledMainTitle {
   font-size: 140px;
   transition: 0.5s all ease-in-out;
+}
+@media screen and (max-width: 350px) {
+  .scrolledMainTitle {
+    font-size: 40px;
+  }
 }
 
 .mainTitle::after {
